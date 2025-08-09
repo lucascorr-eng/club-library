@@ -1,8 +1,14 @@
 /* css reset */
-* {
+*, *::after, *::before {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  box-sizing: border-box;
+
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 /* colors and fonts */
@@ -49,5 +55,11 @@
   --button: 700 .875rem var(--ff-base);
   --link: 500 .875rem var(--ff-base);
   --tag: 700 .625rem var(--ff-base);
-} 
+}
 
+body {
+  font: var(--body-lg);
+  color: var(--text-body);
+}
+
+ 
