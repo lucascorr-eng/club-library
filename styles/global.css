@@ -60,6 +60,8 @@
 body {
   font: var(--body-lg);
   color: var(--text-body);
+
+  background-color: black ;
 }
 
  
